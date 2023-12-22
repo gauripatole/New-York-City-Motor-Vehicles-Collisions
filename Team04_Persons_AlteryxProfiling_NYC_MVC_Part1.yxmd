@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Person.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COLLISION_ID" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_DATE" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_TIME" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_ID" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_TYPE" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_INJURY" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="VEHICLE_ID" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_AGE" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EJECTION" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EMOTIONAL_STATUS" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="BODILY_INJURY" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="POSITION_IN_VEHICLE" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="SAFETY_EQUIPMENT" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_LOCATION" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ACTION" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COMPLAINT" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ROLE" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_SEX" size="254" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="UNIQUE_ID" selected="True" />
+            <SelectField field="COLLISION_ID" selected="True" />
+            <SelectField field="CRASH_DATE" selected="True" />
+            <SelectField field="CRASH_TIME" selected="True" />
+            <SelectField field="PERSON_ID" selected="True" />
+            <SelectField field="PERSON_TYPE" selected="True" />
+            <SelectField field="PERSON_INJURY" selected="True" />
+            <SelectField field="VEHICLE_ID" selected="True" />
+            <SelectField field="PERSON_AGE" selected="True" />
+            <SelectField field="EJECTION" selected="True" />
+            <SelectField field="EMOTIONAL_STATUS" selected="True" />
+            <SelectField field="BODILY_INJURY" selected="True" />
+            <SelectField field="POSITION_IN_VEHICLE" selected="True" />
+            <SelectField field="SAFETY_EQUIPMENT" selected="True" />
+            <SelectField field="PED_LOCATION" selected="True" />
+            <SelectField field="PED_ACTION" selected="True" />
+            <SelectField field="COMPLAINT" selected="True" />
+            <SelectField field="PED_ROLE" selected="True" />
+            <SelectField field="CONTRIBUTING_FACTOR_1" selected="True" />
+            <SelectField field="CONTRIBUTING_FACTOR_2" selected="True" />
+            <SelectField field="PERSON_SEX" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="474" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="UNIQUE_ID" selected="True" />
+            <Field field="COLLISION_ID" selected="True" />
+            <Field field="CRASH_DATE" selected="True" />
+            <Field field="CRASH_TIME" selected="True" />
+            <Field field="PERSON_ID" selected="True" />
+            <Field field="PERSON_TYPE" selected="True" />
+            <Field field="PERSON_INJURY" selected="True" />
+            <Field field="VEHICLE_ID" selected="True" />
+            <Field field="PERSON_AGE" selected="True" />
+            <Field field="EJECTION" selected="True" />
+            <Field field="EMOTIONAL_STATUS" selected="True" />
+            <Field field="BODILY_INJURY" selected="True" />
+            <Field field="POSITION_IN_VEHICLE" selected="True" />
+            <Field field="SAFETY_EQUIPMENT" selected="True" />
+            <Field field="PED_LOCATION" selected="True" />
+            <Field field="PED_ACTION" selected="True" />
+            <Field field="COMPLAINT" selected="True" />
+            <Field field="PED_ROLE" selected="True" />
+            <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+            <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+            <Field field="PERSON_SEX" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+            <Field name="COLLISION_ID" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+            <Field name="CRASH_DATE" size="10" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+            <Field name="CRASH_TIME" size="5" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+            <Field name="PERSON_ID" size="36" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PERSON_TYPE" size="15" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PERSON_INJURY" size="11" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+            <Field name="VEHICLE_ID" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+            <Field name="PERSON_AGE" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int16" />
+            <Field name="EJECTION" size="17" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="EMOTIONAL_STATUS" size="14" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="BODILY_INJURY" size="20" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="POSITION_IN_VEHICLE" size="86" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="SAFETY_EQUIPMENT" size="40" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PED_LOCATION" size="57" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PED_ACTION" size="47" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="COMPLAINT" size="34" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PED_ROLE" size="15" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="53" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="53" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PERSON_SEX" size="1" source="File: C:\Users\gauri\OneDrive\Desktop\NYC_MVC_Project\NYC_MVC_Data\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="618" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,PERSON_ID=True,PERSON_TYPE=True,PERSON_INJURY=True,VEHICLE_ID=True,PERSON_AGE=True,EJECTION=True,EMOTIONAL_STATUS=True,BODILY_INJURY=True,POSITION_IN_VEHICLE=True,SAFETY_EQUIPMENT=True,PED_LOCATION=True,PED_ACTION=True,COMPLAINT=True,PED_ROLE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True,PERSON_SEX=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="618" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\gauri\AppData\Local\Temp\Engine_56432_b4fc9c59d283d842bb4e239a8342937f_\Engine_56432_1a66d05e5f4f0146af7d62db9615adb8~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="834" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\gauri\AppData\Local\Temp\Engine_56432_b4fc9c59d283d842bb4e239a8342937f_\Engine_56432_9ad0f9de43e16c468996694ff7ae4179~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\gauri\AppData\Local\Temp\Engine_56432_b4fc9c59d283d842bb4e239a8342937f_\Engine_56432_7c7f14896081c148899b787cc42330f2~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="834" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\gauri\AppData\Local\Temp\Engine_56432_b4fc9c59d283d842bb4e239a8342937f_\Engine_56432_6bdc9a03f45e9e4db0259d7d4b500a4a~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Reports" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Interactive" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Team04_Persons_AlteryxProfiling_NYC_MVC_Part1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d4debc89-254f-4bcc-929c-8e32e7afd716" />
+      <Telemetry>
+        <PreviousWorkflowId value="d2dd96a2-2734-423a-a9bf-dcf54693ceaa" />
+        <OriginWorkflowId value="f8541840-b781-402f-b009-73c364b5413a" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
