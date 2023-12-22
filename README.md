@@ -1,2 +1,4 @@
 # New-York-City-Motor-Vehicles-Collisions
-Statistical information on motor vehicle collisions in NYC. The data is on a monthly basis, and grouped by borough intersections, bridges, and tunnels.
+Analysing the New York City Motor Vehicles Collision dataset in Google BigQuery from Jan 2014 to Dec 2017 and provide recommendations to reduce occurrence of accidents in Brooklyn, a borough in New York
+
+
